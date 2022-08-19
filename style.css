@@ -113,13 +113,16 @@
     transform: rotate(180deg);
 }
 
-@media (max-width:500px) {
+@media (max-width:977px) {
     .container {
         height: 130vh;
     }
     .faq-component {
         width: 95%;
         flex-direction: column;
+    }
+    .faq-component::before {
+        display: none;
     }
     .img-section img:first-of-type {
         display: none;
@@ -135,6 +138,7 @@
         background-image: url("images/bg-pattern-mobile.svg");
         background-repeat: no-repeat;
         background-position: top center;
+        overflow: visible;
     }
     .img-section img:last-of-type {
         transform: scale(0.8) translateY(-11rem);
