@@ -22,6 +22,7 @@
     background-color: white;
     border-radius: 20px;
     position: relative;
+    box-shadow: 0 10px 30px hsl(237, 12%, 33%);
     /* overflow: hidden; */
 }
 
